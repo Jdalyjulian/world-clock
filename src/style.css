@@ -1,0 +1,15 @@
+body {
+  background-color: #a2a8d3;
+  color: #113f67;
+}
+
+h1 {
+  background-color: #e7eaf6;
+  color: #113f67;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+a {
+  color: #38598b;
+}
