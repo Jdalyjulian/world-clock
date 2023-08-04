@@ -1,6 +1,14 @@
 body {
-  background-color: #a2a8d3;
-  color: #113f67;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(38,30,30,1.0)), url(/world.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  padding: 100px 0;
+  margin-top: 20px;
+  color: #1A1936;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -14,8 +22,8 @@ select {
   padding: 10px;
   width: 75%;
   border-radius: 5px;
-  color: #113f67;
-  box-shadow: 0px 0px 2px #113f67;
+  color: #1A1936;
+  box-shadow: 0px 0px 2px #1A1936;
   display: block;
   margin: 0 auto;
   font-size: 18px;
@@ -26,11 +34,11 @@ h2 {
 }
 
 .container {
-  background-color: #e7eaf6;
-  color: #113f67;
+  background-color: #e6edf4;
+  color: #1A1936;
   border-radius: 5px;
   padding: 20px;
-  box-shadow: 0px 0px 20px #38598b;
+  box-shadow: 0px 0px 20px #1A1936;
   max-width: 400px;
   margin: 0 auto;
 }
@@ -65,12 +73,14 @@ h2 {
 footer {
   margin-top: 20px;
   margin: 20px auto;
-  color: #38598b;
+  color: #74726A;
   text-align: center;
   font-size: 16px;
 }
 
 a {
-  color: #38598b;
+  color: #74726A;
   opacity: 0.8;
 }
+
+
